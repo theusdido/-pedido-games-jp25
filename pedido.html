@@ -29,8 +29,8 @@
         <button type="button" class="btn btn-primary" onclick="adicionar()">Adicionar</button>
     </form>
     <hr class="mt-5">
+    <table class="table table-striped" id="lista-produto">
     <!-- Master alterada -->
-    <table class="table" id="lista-produto">
       <thead>
         <tr>
           <th scope="col">Código</th>
@@ -43,7 +43,7 @@
 
       </tbody>
       <tfoot>
-        <tr>
+        <tr class="table-dark">
           <td colspan="2">Total</td>
           <td id="total-quantidade"></td>
           <td id="total-valor"></td>
